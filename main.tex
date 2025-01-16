@@ -1,0 +1,297 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage{standalone}
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%\usepackage[utf8]{inputenc}
+
+%\usepackage{booktabs}
+\usepackage{fontawesome}
+\usepackage{marvosym} % For cool symbols.
+%\usepackage{hyperref}
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Waleed} % Your first name
+\familyname{Raza} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Department of Electrical Engineering and Computer Science}{Embry-Riddle Aeronautical University, Daytona Beach, FL 32114}
+\mobile{(+1) 4699887121}
+
+
+%\fax{(000) 111 1113}
+ 
+%\social{github}{stefano-bragaglia}
+\email{razaw@my.erau.edu, waleedraza93@gmail.com} 
+
+
+
+
+% social link \faGithub, \faSkype, \faLinkedin,\faStackExchange, and \faStackOverflow
+\extrainfo{
+    \href{https://www.linkedin.com/in/waleed-raza-b4690953//}{\textcolor{blue}{\faLinkedin\ LinkedIn}}
+    \href{https://scholar.google.com/citations?user=qOyRccEAAAAJ}{\textcolor{blue}{\faGraduationCap\ Google Scholar}}
+    }
+
+
+
+%\social[linkedin][www.linkedin.com]{name}
+% The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+
+%\photo[70pt][0.5pt]{waleed} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+%\quote{Not Attention, Patience is all we need.}
+
+%----------------------------------------------------------------------------------------
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }%
+}
+
+
+
+\usepackage{multibbl}
+\newcommand\Colorhref[3][orange]{\href{#2}{\small\color{#1}#3}}
+
+
+% \newcommand{\cvreference}[7]{%
+%     \textbf{#1}\newline% Name
+%     \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+%     \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+%     \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+%     \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+%     \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+%     \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{Summary}
+I am a result-driven multidisciplinary professional with a diverse background in electrical engineering, computer science, and academic research. Currently pursuing a Ph.D. in electrical engineering and computer science (EECS), specializing in airspace design and operations for advanced air mobility, flight data recorders (FDRs) for general aircraft and unmanned aerial vehicles (UAVs), and wireless data communication for the future generation of networks. I am skilled in identifying FDR parameter requirements, establishing data communication links, and understanding the operational and regulatory aspects of UAVs. My previous research experience includes orthogonal frequency-division multiplexing for underwater acoustics communication (UAC) engineering and contributing to different UAC projects. I am committed to making impactful contributions in the fields of EECS.
+\section{Education}
+
+\cventry{August 2022--May 2025}{Ph.D., Electrical Engineering \& Computer Science}{Embry-Riddle Aeronautical University}{Daytona Beach, FL, United States}{Research Focus: Flight data recorders, Airspace design for advanced air Mobility, Wireless communication networks,  Machine learning, and Deep learning}{GPA: 4.0}% Arguments not required can be left empty
+
+\cventry{September 2018-- March 2021}{Master of Engineering, Underwater Acoustics Engineering}{Harbin Engineering University}{Harbin, China}{Thesis Focus: Underwater acoustic Communication, OFDM, Underwater target detection, Doppler compensation in Underwater acoustic communication, Signal processing}{GPA: 3.46}
+%{Advanced exposure to various areas of computer science along with a one and half year research project on Reversible Logic Synthesis.}
+%\cvitem{CGPA :}{7.96/10}
+\cventry{January 2013-- December 2016 :}{Bachelor of Engineering, Electronic Engineering}{Dawood University of Engineering \& Technology}{Karachi, Pakistan}{Specialization in communication network and Energy efficient systems}{GPA: 3.03}
+%{Comprehensive exposure to the core areas of Computer Science along with a final year project on Data-mining}
+%\cvitem{CGPA :}{7.36/10}
+% \cventry{2008 :}{Higher Secondary Examination}{Belmuri Union Institution}{Belmuri}{}{ Mathematics, Physics, Chemistry, Biology, English, Bengali}
+% {}
+% \cvitem{Percentage :}{81.2 \%}
+% \cventry{2006 :}{Secondary Examination}{Belmuri Union Institution}{Belmuri}{}{ Mathematics, Physical Science, Life Science, Geography, History, English, Bengali}
+% {}
+% \cvitem{Percentage :}{90.8 \%}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Experience}
+\subsection{Embry-Riddle Aeronautical University, Daytona Beach, FL, United States.}
+\cventry{August 2022 -- Present}{\textit{A55: Identify Flight Recorder Requirements For UAS Integration Into the National Airspace System}}{}{}{}
+{Explore flight recorder requirements for a variety of UAS to include small UAS (sUAS), medium-sized UAS, large UAS, and remotely piloted Urban Air Mobility (UAM) aircraft. 
+}
+\cvitem{Advisor :}{\textbf{Dr. Richard Stansbury}, \textit{Associate Professor, Computer Engineering and Computer Science Department of Electrical, and Systems \& Engineering}, Daytona Beach, FL({\Colorhref{https://www.richardstansbury.com/} {\textit{Personal Web-page}}})}
+%\subsection{Missouri University of Science and Technology, Rolla, MO, United States.}
+%\cventry{Jan,2022 -- May 2022}{\textit{Cryptographic Function and Statistical Inference for Cyber-Physical Systems}}{}{}{}
+%{Statistical Inference Over Block-Chain Aided Cyber-Physical System (More Specifically researched novel methods to prevent the attacks on Bitcoin Networks). 
+%}
+%\cvitem{Advisor :}{\textbf{Dr. Jiangfan Zhang}, \textit{Associate Professor, Department of Electrical and Computer \& Engineering}, Rolla, MO({\Colorhref{https://web.mst.edu/~zhangjiangf/} {\textit{Personal Web-page}}})}
+
+\subsection{Harbin Engineering University, China}
+\cventry{Sep 2018 -- March 2021}{\textit{PAPR Reduction with Nonlinear Distortion Removal using Machine Learning in the underwater acoustics OFDM communication System}}{}{}{}
+{Implemented different PAPR approaches to design an energy-efficient underwater acoustics OFDM communication system. 
+}
+\cventry{}{\textit{Doppler compensation in an underwater acoustic OFDM communication system and underwater acoustic target detection}}{}{}{}
+{used Intelligent multimodal information and proposed a method based on wavelet function to compensate for the Doppler distortions of the underwater acoustic channel for OFDM data. Analyzed and studied the method of extracting poles by using the matrix Pencil Method to determine the number of poles of the underwater target
+}
+\cvitem{Advisor :}{\textbf{Dr. Xuefei Ma}, \textit{Associate Professor, College of Information and Communication \& Engineering}, HEU, China ({\Colorhref{https://ieeexplore.ieee.org/author/37675928700/} {\textit{Personal Web-page}}})}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Fellowships \& Awards
+%----------------------------------------------------------------------------------------
+
+\section{Fellowships \& Awards}
+
+\cvitem{2018 --2021}{\textit{\textbf{Chinese Government Scholarship,}} China Scholarship Council through Ministry of Commerce of the People’s Republic of China, as a Master's research scholar in Harbin Engineering University.}
+\cvitem{2019}{Receipt of HEU Travel Grant to attend a international conference \textbf{\textit{178th Acoustical Society of America}} in San Diego, CA}
+\cvitem{2021}{Recipient of \textit{\textbf{Alliance of International Science Organizations (ANSO) Scholarship for Young Talent}} to pursue Ph.D. in Information and Communication Engineering at 
+University of Science and Technology of China (USTC)}
+\cvitem{2020}{Awarded \textit{\textbf{Meritorious Honor Award}} at the HEU, China for \textbf{Research Achievements and Work}}
+
+
+%----------------------------------------------------------------------------------------
+%	Academic achievements
+%----------------------------------------------------------------------------------------
+
+\section{Technical Reviewer (Invited) for Academic Journals \& Conferences }
+\cvitem{2018-present}{\textbf{Springer Nature}: {Wireless Personal Communications, Computers, and Electrical Engineering, The Journal of Supercomputing,  Springer Science and AEU - International Journal of Electronics and Communications, Scientific Reports.}
+\textbf{IEEE:} IEEE Sensor Journal.
+\textbf{ETASR:} Engineering, Technology, and Applied Science Research} \textbf{MDPI:} Journal of Marine Science and Engineering, Remote sensing
+
+\cvitem{2023}{Invited to review technical papers in \textbf{"International Wireless Communication and Mobile Computing Conference (IWCMC)"} held in Marrakesh, Morroco 2023}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+\cvitem{Advanced Air Mobility}{Routing network design in the airspace for the AAM and its operations}
+\cvitem{Programming Languages}{Python, MATLAB}
+\cvitem{Wireless Technologies}{OFDM, Signal Processing for communication engineering, Computer simulations for wireless technologies, Machine Learning for communication engineering}
+\cvitem{Underwater Acoustic Engineering}{Signal Propagation in BELLHOP channel configuration, Transducers, and Hydrophones}
+
+
+%----------------------------------------------------------------------------------------
+%	Position of Responsibility SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Position of Responsibility \& Professional Association Memberships}
+\cvitem{2021}{\textbf{"Editorial Board Member"} at \textit{Journal of Engineering Technology and Applied Science Research (ETASR), Greece}}
+\cventry{2019}{"Participant and Organizing Member"}{}{First China Pakistan Marine Information Workshop, HEU, China}{}{}
+\cvitem{2022-Present}{\textbf{"IEEE Graduate Student Member"} at \textit{IEEE Daytona Section}}
+\cvitem{2017-Present}{\textbf{"Registered Engineer"} at \textit{Pakistan Engineering Council}}
+
+%----------------------------------------------------------------------------------------
+%	Teaching Assistantship SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Industrial Experience}
+\subsection{K-Electric, Karachi, Pakistan(MM Associates Pvt. Ltd.)}
+\cventry{July 2016 -- Sep 2018}{\textit{Assistant Engineer/Electrical Supervisor}}{}{}{}
+{Performed tasks such as 3-phase testing, managing load distribution on PMTs (power metering transformers), resolving high/low voltage issues in low tension systems (220V), locating and pinpointing faults in underground cables, testing power cables and normalizing feeder tripping, monitor and manage the 11KV network, including fault localization, transfer/load management, and load balancing. 
+}
+\cvitem{Manager:}{\textbf{Mr. Adnan Shaikh}, \textit{General Manager Technical at K-Electric, Karachi, PK
+({\Colorhref{https://www.linkedin.com/in/engradnanas/?originalSubdomain=pk/} {\textit{Personal Web-page}}})}
+}
+
+\subsection{Pakistan Telecommunication Company Ltd. (E-Square Services)}
+\cventry{Nov 2014 -- March 2015}{\textit{Customer Services Executive}}{}{}{}
+{Technical support to customers regarding their Internet Service, assisting them with troubleshooting problems related to modems, wireless modems, EVO, and Smart TVs. 
+}
+\subsection{WAPDA Hydel Training Center Mangla, Pakistan}
+\cventry{July 2014 -- August 2014}{\textit{Internhsip}}{}{}{}
+{Training included a detailed visit to the Mangla Power Station, a 600-MW grid station, Visit to Pakistan's largest turbine and transformer repair workshops, important topics covered such as power transformers, autotransformers, and earthing systems, learned about the functioning and maintenance of a 132/220 KV switchyard, and focused on hydraulic turbines and generators
+}
+
+\section{Publications}
+% \subsection{Journal Article(Accepted)}
+% \cventry{2019}{\textbf{Pratik Dutta}, Sriparna Saha, Sanket Pai and Aviral Kumar}{}{Protein-protein Interaction based Generative Model for Improving Gene Clustering}{In \textit{\textbf{Scientific Reports-Nature}} (\textbf{Impact Factor: 4.12)}}{}
+
+\subsection{Journal Articles}
+\newbibliography{journal}
+\bibliographystyle{journal}{plainyrrev}
+\nocite{journal}{*}
+\bibliography{journal}{journal}
+{\large \textsc{Refereed Journal Articles}}
+\subsection{Awaiting Reviewer Scores}
+\cventry{2024}{\textbf{Waleed Raza}} {Justus Renkhoff, Olayemi Ogirimah,  Gurvir Kaur Bawa, and Richard S. Stansbury} {New Challenges Posed by Current Trends in Aviation: Advanced Air Mobility
+}{\textit{Journal of Air Transportation, American Institute of Aeronautics and Astronautics, Accepted for Publication}}{}{}
+
+\subsection{In Conference Proceedings}
+\newbibliography{conference}
+\nocite{conference}{*}
+\bibliographystyle{conference}{plainyrrev}
+\bibliography{conference}{conference}
+{\large \textsc{Refereed Conference Publications}}
+\section{Referees}
+
+
+\begin{tabular}{lr}
+% Referee 1
+\begin{minipage}[t]{3in}
+\textbf{Dr. Richard Stansbury Ph.D.}\\
+\textit{Associate Professor, Department of} \\
+\textit{Electrical Engineering \& Computer Science}\\
+Embry-Riddle Aeronautical University, FL\\
+\Telefon\ +(1) 386-453-3305\\
+\Letter\ \href{mailto:abc@gmail.com}{stansbur@erau.edu}
+\end{minipage}
+&
+% Referee 2
+\begin{minipage}[t]{3in}
+\textbf{Dr. Houbing Song Ph.D.}\\
+\textit{Associate Professor, Department of} \\
+\textit{Information \& Systems}\\
+University of Maryland, Baltimore County (UMBC), MD\\
+\Telefon\ +1 (601) 877-6236\\
+\Letter\ \href{mailto:abc@gmail.com}{songh@umbc.edu}
+\end{minipage}
+\\
+\\ % Additional newline for spacing.
+% Referee 3
+\begin{minipage}[t]{3in}
+\textbf{Dr. Xuefei Ma Ph.D.}\\
+\textit{Associate Professor, College of} \\
+\textit{Information Communication \& Engineering}\\
+Harbin Engineering University, Harbin China\\
+\Telefon\ +(86) 13613677886\\
+\Letter\ \href{mailto:abc@gmail.com}{maxuefei@hrbeu.edu.cn}
+\end{minipage}
+&
+\\
+\end{tabular}
+
+
+\end{document}
